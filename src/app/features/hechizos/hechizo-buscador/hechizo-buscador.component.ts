@@ -9,7 +9,7 @@ import { Alerta } from '../../../shared/components/alerta/alerta.component';
 // 📖 RETO 5: El Grimorio Viviente
 // Este componente muestra los hechizos de un tipo. El tipo llega desde la URL (?tipo=Fuego)
 // como input(), igual que @QueryParam("tipo") en el backend.
-// 👀 Ejemplo resuelto para guiarte: features/magos/mago-list
+// 👀 Ejemplo resuelto para guiarte: features/magos/mago-list.
 @Component({
   selector: 'app-hechizo-buscador',
   imports: [RouterLink, Alerta],
