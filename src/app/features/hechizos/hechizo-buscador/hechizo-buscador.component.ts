@@ -1,7 +1,7 @@
 import { Component, effect, inject, input, signal } from '@angular/core';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Router, RouterLink } from '@angular/router';
-import { HechizoApiService } from '../../../core/services/hechizo-api.service';
+import HechizoApiService from '../../../core/services/hechizo-api.service';
 import { mensajeDeError } from '../../../core/services/error-http';
 import { Hechizo, TIPOS_MAGIA } from '../../../models/hechizo.model';
 import { Alerta } from '../../../shared/components/alerta/alerta.component';
